@@ -15,9 +15,15 @@ header {
 .section_5_footer {
     background-color: #3a546d;
 }
+.section_6_footer {
+    background-color: #233240;
+}
 a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+}
+.text-end > a:hover {
+    color: #1abc9c;
 }
 .download {
     border: 1px solid white;
@@ -26,16 +32,22 @@ a {
     width: 130px;
     height: 5px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
     margin-top: 30px;
 }
 .menu {
     display: none;
 }
-.input {
-    width: 90%;
+.cont-icons > i {
+    border: 1px solid white;
+    border-radius: 50%;
 }
+i:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 455px) {
     .menu {
         display: block;
